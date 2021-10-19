@@ -16,11 +16,13 @@ body {
 @media (max-width: 375px) {
   body {
     background-image: url("./images/pattern-background-mobile.svg");
+    background-size: cover;
   }
 }
 
 @media (min-width: 375px) {
   body {
     background-image: url("./images/pattern-background-desktop.svg");
+    background-size: cover;
   }
 }
