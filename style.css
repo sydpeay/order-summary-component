@@ -8,3 +8,19 @@
 .bold {
   font-weight: 700;
 }
+
+body {
+  background-color: #e0e8ff;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+}
+
+@media (min-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+}
