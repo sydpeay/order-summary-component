@@ -11,6 +11,7 @@
 
 body {
   background-color: #f5f7ff;
+  min-height: 100vh;
 }
 
 @media (max-width: 375px) {
@@ -23,6 +24,6 @@ body {
 @media (min-width: 375px) {
   body {
     background-image: url("./images/pattern-background-desktop.svg");
-    background-size: 100% 100%;
+    background-size: cover;
   }
 }
