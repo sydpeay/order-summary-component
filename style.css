@@ -25,6 +25,18 @@ body {
   overflow: hidden;
 }
 
+.attribution {
+  display: none;
+  font-size: .6875em;
+  text-align: center;
+  width: 85%;
+  margin: 1.75rem 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (max-width: 375px) {
   body {
     background-image: url("./images/pattern-background-mobile.svg");
