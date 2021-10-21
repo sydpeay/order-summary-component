@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
-  
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Display">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-</head>
-<body>
-  <div id="container">
-    <img id="header-image" src="./images/illustration-hero.svg">
-    <h1 class="bold">Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-    <div id="plan-container">
-      <img id="music-icon" src="./images/icon-music.svg">
-      <p class="bold">Annual Plan</p>
-      <div>
-        <p>$59.99/year</p>
-        <p>Change</p>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Display">
+
+  </head>
+
+  <body>
+    <div id="container">
+      <img id="header-image" src="./images/illustration-hero.svg">
+      <h1 class="bold container-item">Order Summary</h1>
+      <p class="container-item gray" id="description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <div id="plan-container" class="container-item">
+        <img id="music-icon" src="./images/icon-music.svg">
+        <div id="annual-plan">
+          <p class="bold">Annual Plan</p>
+          <p class="gray">$59.99/year</p>
+        </div>
+				<p id="change"><u>Change</u></p>
       </div>
+      <p class="bold container-item" id="payment-button">Proceed to Payment</p>
+      <p class="bold gray container-item">Cancel Order</p>
     </div>
-    <p class="bold">Proceed to Payment</p>
-    <p class="bold">Cancel Order</p>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+
 </html>
