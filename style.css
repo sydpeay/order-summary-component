@@ -4,7 +4,7 @@
   padding: 0px;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 html {
@@ -23,21 +23,25 @@ body {
 /* text styles */
 
 h1 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 p {
-	text-align: center;
-	line-height: 1.5;
-	color: #1f2f56;
+  text-align: center;
+  line-height: 1.5;
+  color: #1f2f56;
 }
 
 .gray {
-	color: #7280a7;
+  color: #7280a7;
 }
 
 .bold {
   font-weight: 700;
+}
+
+#change {
+  color: #3829e0;
 }
 
 #container {
@@ -46,40 +50,42 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-	padding-bottom: 1em;
-	border-radius: 1em;
+  padding-bottom: 1em;
+  border-radius: 1em;
+  box-shadow: 0 1em 1em hsl(245, 75%, 52%, 0.2);
 }
 
 .container-item {
-	margin: 0.325em;
+  margin: 0.325em;
 }
 
 #header-image {
   width: 100%;
-	margin-bottom: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 #description {
-	padding: 0 1.5em;
+  padding: 0 1.5em;
 }
 
 #plan-container {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
-	align-items: center;
+  align-items: center;
   background-color: #f5f7ff;
   width: 85%;
-	height: 5em;
-	border-radius: 1em;
+  height: 5em;
+  border-radius: 1em;
 }
 
 #payment-button {
-	color: #fff;
-	background-color: #3829e0;
-	width: 85%;
-	padding: 1em 0;
-	border-radius: 1em;
+  color: #fff;
+  background-color: #3829e0;
+  width: 85%;
+  padding: 1em 0;
+  border-radius: 1em;
+  box-shadow: 0 1em 1em hsl(245, 75%, 52%, 0.2);
 }
 
 .attribution {
@@ -94,7 +100,7 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 375px) {
   body {
     background-image: url("./images/pattern-background-mobile.svg");
     background-size: cover;
@@ -105,7 +111,7 @@ p {
   }
 }
 
-@media (min-width: 450px) {
+@media (min-width: 375px) {
   body {
     background-image: url("./images/pattern-background-desktop.svg");
     background-size: cover;
